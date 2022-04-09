@@ -6,4 +6,5 @@ module.exports = {
         defaultLocale: process.env.NEXT_PUBLIC_LOCALES.split(",")[0],
         locales: process.env.NEXT_PUBLIC_LOCALES.split(","),
     },
+    localePath: path.resolve('./public/locales')
 };
